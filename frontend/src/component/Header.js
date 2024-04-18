@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assest/logo.png";
+import FarmFreshLogo from "../assest/FarmFreshLogo.png";
 import { HiOutlineUserCircle } from "react-icons/hi";
 import { BsCartFill } from "react-icons/bs";
 import { useDispatch, useSelector } from "react-redux";
@@ -28,7 +28,7 @@ const Header = () => {
       <div className="flex items-center h-full justify-between">
         <Link to={""}>
           <div className="h-10">
-            <img src={logo} className="h-full" />
+            <img src={FarmFreshLogo} className="h-full" />
           </div>
         </Link>
 
